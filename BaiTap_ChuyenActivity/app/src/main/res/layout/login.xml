@@ -6,13 +6,14 @@
     android:gravity="center"
     android:padding="24dp"
     android:background="@drawable/bground">
+    
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:src="@drawable/fox"
         android:layout_marginBottom="8dp"/>
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_2311"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Foxes Pet"
@@ -42,7 +43,7 @@
         android:layout_marginBottom="8dp"
         android:textSize="16sp"/>
     <EditText
-        android:id="@+id/editUsername"
+        android:id="@+id/editUsername_2311"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="User name"
@@ -59,7 +60,7 @@
         android:layout_marginBottom="8dp"
         android:textSize="16sp"/>
     <EditText
-        android:id="@+id/editPassword"
+        android:id="@+id/editPassword_2311"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
@@ -73,7 +74,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <CheckBox
-            android:id="@+id/checkRemember"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"android:text="Remember account"
             android:textSize="14sp"
@@ -81,7 +81,6 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"/>
         <TextView
-            android:id="@+id/tvForgotPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Forgot your password?"
@@ -92,7 +91,7 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnLogin_2311"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LOGIN"
