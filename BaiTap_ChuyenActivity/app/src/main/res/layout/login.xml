@@ -77,7 +77,8 @@
         android:layout_height="wrap_content">
         <CheckBox
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"android:text="Remember account"
+            android:layout_height="wrap_content"
+            android:text="Remember account"
             android:textSize="14sp"
             android:layout_marginBottom="16dp"
             android:layout_alignParentLeft="true"
