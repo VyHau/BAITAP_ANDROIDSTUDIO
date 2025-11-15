@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/foodImage_311"
-        android:src="@drawable/cua1"
+        android:src="@drawable/cua"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginEnd="10dp"/>
@@ -23,14 +23,16 @@
             android:text="Tên món"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <TextView
             android:id="@+id/foodPrice_311"
             android:text="Giá: 120.000đ"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textColor="#009688"
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 

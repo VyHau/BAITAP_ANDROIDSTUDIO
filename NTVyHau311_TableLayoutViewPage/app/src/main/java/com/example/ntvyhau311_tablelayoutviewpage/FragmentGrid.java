@@ -29,10 +29,12 @@ public class FragmentGrid extends Fragment {
         list.add(new Food(R.drawable.tom, "Tôm sú hấp", "120.000đ"));
         list.add(new Food(R.drawable.muc, "Mực nướng", "150.000đ"));
         list.add(new Food(R.drawable.hau, "Hàu phô mai", "90.000đ"));
-        list.add(new Food(R.drawable.oc, "Ốc hương rang muối", "180.000đ"));
+        list.add(new Food(R.drawable.oc, "Ốc hương ", "180.000đ"));
         list.add(new Food(R.drawable.ghe, "Ghẹ hấp bia", "250.000đ"));
         list.add(new Food(R.drawable.muc, "Mực chiên giòn", "140.000đ"));
-        list.add(new Food(R.drawable.tom, "Tôm tít rang me", "200.000đ"));
+        list.add(new Food(R.drawable.tom, "Tôm rang me", "200.000đ"));
         list.add(new Food(R.drawable.hau, "Hàu sống", "70.000đ"));
+        list.add(new Food(R.drawable.tom, "Tôm rim", "180.000đ"));
+        list.add(new Food(R.drawable.hau, "Ốc combo", "270.000đ"));
     }
 }

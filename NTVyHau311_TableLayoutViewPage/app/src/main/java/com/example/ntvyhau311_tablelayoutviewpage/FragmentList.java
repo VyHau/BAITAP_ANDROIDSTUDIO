@@ -36,5 +36,6 @@ public class FragmentList extends Fragment {
         list.add(new Food(R.drawable.hau, "Hàu nướng phô mai", "90.000đ"));
         list.add(new Food(R.drawable.oc, "Ốc hương rang muối", "180.000đ"));
         list.add(new Food(R.drawable.ghe, "Ghẹ hấp bia", "250.000đ"));
+        list.add(new Food(R.drawable.cua, "Cua sốt thái","200.000đ"));
     }
 }
